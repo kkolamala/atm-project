@@ -70,9 +70,4 @@ while isValidUser:
     if(selectedOption == 4):
         print('Thank you for visiting us')
         break
-<<<<<<< HEAD
-=======
 
-
-print("completed atm project with all the options needed")
->>>>>>> 039ed25a29ca638806a8624ac6386479bedef581
