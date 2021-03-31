@@ -65,7 +65,7 @@ while isValidUser:
 
     if(selectedOption == 3):
         complaintInfo = input('What issue will you like to report? ')
-        print('Thank you for contact us')
+        print('Thank you for contact us, we will soon resolve your issue')
 
     if(selectedOption == 4):
         print('Thank you for visiting us')
