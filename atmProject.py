@@ -1,7 +1,7 @@
 import datetime
 allowedUsers = ['KRIS', 'MIKE', 'JOHN']
 allowedPasswords = ['krispassword', 'mikepassword', 'johnpassword']
-validOptions = [1, 2, 3, 4]
+validOptions = [1, 2, 3, 4, 5]
 isValidUser = False
 #balance in Account
 currentBalanace = 1000
@@ -35,7 +35,8 @@ while isValidUser:
     print('1. Withdrawl \n')
     print('2. Cash Deposit \n')
     print('3. Complaint \n')
-    print('4. Exit \n')
+    print('4. Check Balance')
+    print('5. Exit \n')
 
     selectedOption = int(input('Please select an option: '))
 
@@ -65,9 +66,13 @@ while isValidUser:
 
     if(selectedOption == 3):
         complaintInfo = input('What issue will you like to report? ')
-        print('Thank you for contact us')
-
+        print('Thank you for contact us, we will soon resolve your issue')
+        
     if(selectedOption == 4):
+        print('your available balance is %d' currentBalanace)
+        continue
+        
+    if(selectedOption == 5):
         print('Thank you for visiting us')
         break
 
