@@ -14,6 +14,7 @@ class Vehicle:
 Inheritance.
 Parent class or super class is Vehicle
 Child class or sub class or Derived class is Car
+The child class will inherit all except private variables and methods
 """  
 class Car(Vehicle):
     def __init__(self,make,color,model,doors):
